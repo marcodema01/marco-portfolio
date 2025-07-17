@@ -28,7 +28,9 @@ const ProjectDescriptionNebulo = () => {
             </>
           }></ProjectTextWithTitle>
         <VideoComponent
-          videoSrc={"/images/nebulo/videoNebulo.mp4"}></VideoComponent>
+          videoSrc={
+            "https://frabjous-malasada-dd5ef3.netlify.app/videoNebulo.mp4"
+          }></VideoComponent>
         <ImageGallery
           doubleImgSrc={[
             "/images/nebulo/ngallery1.jpg",

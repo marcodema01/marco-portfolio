@@ -21,7 +21,7 @@ const ProjectDescriptionRino = () => {
               table.
             </>
           }></ProjectTextWithTitle>
-        <VideoComponent videoSrc="/images/rino/rino.mp4"></VideoComponent>
+        <VideoComponent videoSrc="https://frabjous-malasada-dd5ef3.netlify.app/rino.mp4"></VideoComponent>
         <ImagesGrid
           img1="/images/rino/poster.png"
           img2="/images/rino/rgrid2.jpg"

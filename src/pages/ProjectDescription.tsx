@@ -26,7 +26,7 @@ const ProjectDescription = () => {
           text={
             "Ex Machina is an interactive installation that immerses visitors in the heart of an artificially generated cult set between a past shaped by ancient rituals and a post-industrial future where artificial artifacts become icons of worship. Three objects act as a bridge between reality and the cult’s domain, their forms reverberating like a distorted echo within the archive’s images. By grasping and engaging with these objects, visitors navigate a photographic archive composed of fleeting, stolen glimpses into the cult’s existence, where gestures transform into rituals."
           }></ProjectTextWithTitle>
-        <VideoComponent videoSrc="/images/exmachina/video.mp4"></VideoComponent>
+        <VideoComponent videoSrc="https://frabjous-malasada-dd5ef3.netlify.app/video.mp4"></VideoComponent>
         <ImagesGrid
           img1="/images/exmachina/grid1.jpg"
           img2="/images/exmachina/grid2.jpg"
