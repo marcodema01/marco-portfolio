@@ -1,0 +1,13 @@
+.carousel{
+    margin: 32px 32px 20px 32px;
+    flex: 1;
+    display: flex;
+    gap: 200px;
+    overflow:scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}

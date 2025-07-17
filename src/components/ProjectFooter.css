@@ -1,0 +1,16 @@
+.footer-container{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    padding: 48px 0 48px;
+}
+
+.footer-link{
+    cursor: pointer;
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: black;
+}

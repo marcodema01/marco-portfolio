@@ -1,0 +1,31 @@
+.double-image{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 24px;
+    grid-row-gap: 0px; 
+    width: 50vw;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+.grid1-3{
+    grid-area: 1 / 1 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.grid2-3{
+    grid-area: 1 / 3 / 3 / 5; 
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.gallery-container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

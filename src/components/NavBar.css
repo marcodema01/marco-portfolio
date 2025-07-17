@@ -1,0 +1,46 @@
+.navbar-animation{
+    width: 100vw;
+    background-color: black;
+    height: 64px;
+    transform: scaleY(0);
+    transform-origin: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.container{
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-text-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    position: relative;
+    align-items: center;
+}
+
+.nav-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    filter: invert(0);
+}
+
+.nav-p-number{
+    font-family: neuehaas-thin;
+    font-size: .8vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 1;
+}
+
+.nav-p{
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 1;
+}

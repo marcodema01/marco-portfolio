@@ -1,0 +1,22 @@
+.image-row-container{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.row-image{
+    width: 10vw;
+}
+
+.img-did{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.did{
+    color: grey;
+    font-size: .7vw;
+    width: auto;
+}
