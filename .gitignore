@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Video files
+public/images/exmachina/video.mp4
+public/images/nebulo/videoNebulo.mp4
+public/images/rino/rino.mp4
