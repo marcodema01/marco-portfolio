@@ -91,25 +91,25 @@ const NavBar = () => {
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(0)}>
           <p className="nav-p-number">01</p>
           <p className="nav-p" ref={textRefs[0]}>
-            <a href={`/`}>Projects</a>
+            <a href={`/#/`}>Projects</a>
           </p>
         </div>
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(1)}>
           <p className="nav-p-number">02</p>
           <p className="nav-p" ref={textRefs[1]}>
-            <a href={`/playground`}>Playground</a>
+            <a href={`/#/playground`}>Playground</a>
           </p>
         </div>
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(2)}>
           <p className="nav-p-number">03</p>
           <p className="nav-p" ref={textRefs[2]}>
-            <a href={`/about`}>About</a>
+            <a href={`/#/about`}>About</a>
           </p>
         </div>
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(3)}>
           <p className="nav-p-number">04</p>
           <p className="nav-p" ref={textRefs[3]}>
-            <a href={`/contacts`}>Contacts</a>
+            <a href={`/#/contacts`}>Contacts</a>
           </p>
         </div>
       </div>
