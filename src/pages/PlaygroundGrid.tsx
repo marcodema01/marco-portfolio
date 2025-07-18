@@ -50,7 +50,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/olympus.jpg"
+            src={`${import.meta.env.BASE_URL}images/playground/olympus.jpg`}
             alt=""
           />
         </div>
@@ -65,7 +65,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width obj-position-right"
-            src="/images/playground/borbone.png"
+            src={`${import.meta.env.BASE_URL}/images/playground/borbone.png`}
             alt=""
           />
         </div>
@@ -80,7 +80,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width obj-position-right"
-            src="/images/playground/tav2.png"
+            src={`${import.meta.env.BASE_URL}/images/playground/tav2.png`}
             alt=""
           />
         </div>
@@ -97,7 +97,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/matrici2.webp"
+            src={`${import.meta.env.BASE_URL}/images/playground/matrici2.webp`}
             alt=""
           />
         </div>
@@ -114,7 +114,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/timer.webp"
+            src={`${import.meta.env.BASE_URL}/images/playground/timer.webp`}
             alt=""
           />
         </div>
@@ -129,7 +129,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/minipim.png"
+            src={`${import.meta.env.BASE_URL}/images/playground/minipim.png`}
             alt=""
           />
         </div>
@@ -146,7 +146,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/atari.png"
+            src={`${import.meta.env.BASE_URL}/images/playground/atari.png`}
             alt=""
           />
         </div>
@@ -161,7 +161,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/mono.gif"
+            src={`${import.meta.env.BASE_URL}/images/playground/mono.gif`}
             alt=""
           />
         </div>
@@ -179,7 +179,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width obj-position-right"
-            src="/images/playground/walkman.png"
+            src={`${import.meta.env.BASE_URL}/images/playground/walkman.png`}
             alt=""
           />
         </div>
@@ -196,7 +196,7 @@ const PlaygroundGrid = () => {
           </div>
           <img
             className="cover-image-width"
-            src="/images/playground/safe2.png"
+            src={`${import.meta.env.BASE_URL}/images/playground/safe2.png`}
             alt=""
           />
         </div>

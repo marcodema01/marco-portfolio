@@ -110,7 +110,7 @@ const NavBar = () => {
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(3)}>
           <p className="nav-p-number">04</p>
           <p className="nav-p" ref={textRefs[3]}>
-            <Link to="/contas">Contacts</Link>
+            <Link to="/contacts">Contacts</Link>
           </p>
         </div>
       </div>
