@@ -2,7 +2,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import About from "./pages/About.tsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createHashRouter,
+  HashRouter,
+  RouterProvider,
+} from "react-router-dom";
 import App from "./App.tsx";
 import ProjectCarousel from "./components/ProjectCarousel.tsx";
 import ProjectDescription from "./pages/ProjectDescription.tsx";
@@ -13,7 +18,7 @@ import ProjectDescriptionDdose from "./pages/ProjectDescriptionDdose.tsx";
 import PlaygroundGrid from "./pages/PlaygroundGrid.tsx";
 import Contacts from "./pages/Contacts.tsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     // path: "/",
     element: <App></App>,
