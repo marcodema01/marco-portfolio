@@ -61,6 +61,9 @@ const router = createHashRouter([
     path: "contacts",
     element: <Contacts />,
   },
+  {
+    basename: "/marco-portfolio/",
+  },
 ]);
 
 createRoot(document.getElementById("root")!).render(
