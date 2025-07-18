@@ -11,6 +11,8 @@ import VideoComponent from "../components/VideoComponent";
 import ProjectFooter from "../components/ProjectFooter";
 
 const ProjectDescription = () => {
+  const img = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <>
       {/* <div className="herobg">
@@ -28,9 +30,9 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <VideoComponent videoSrc="https://frabjous-malasada-dd5ef3.netlify.app/video.mp4"></VideoComponent>
         <ImagesGrid
-          img1="/images/exmachina/grid1.jpg"
-          img2="/images/exmachina/grid2.jpg"
-          img3="/images/exmachina/grid3.jpg"
+          img1={img("/images/exmachina/grid1.jpg")}
+          img2={img("/images/exmachina/grid2.jpg")}
+          img3={img("/images/exmachina/grid3.jpg")}
           did1=""
           did2=""
           did3=""></ImagesGrid>
