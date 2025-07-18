@@ -24,8 +24,6 @@ dist-ssr
 *.sw?
 
 # Video files
-public/images/exmachina/oneToTwo.mp4
-public/images/exmachina/twoToThree.mp4
 public/images/exmachina/video.mp4
 public/images/nebulo/videoNebulo.mp4
 public/images/rino/rino.mp4
