@@ -58,7 +58,7 @@ const router = createBrowserRouter(
       element: <Contacts />,
     },
   ],
-  { basename: "/marco-portfolio" }
+  { basename: "/marco-portfolio/" }
 );
 
 createRoot(document.getElementById("root")!).render(
