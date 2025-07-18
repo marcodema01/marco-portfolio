@@ -35,7 +35,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         want to see more don't forget to check out the playground section!
       </>
     ),
-    image: "/images/heroWhite.png",
+    image: "{`${import.meta.env.BASE_URL}/images/heroWhite.png`}",
     invertText: "",
     whiteText: "",
     descriptionTextClass: "description",
@@ -55,7 +55,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         become icons of worship.
       </>
     ),
-    image: "/images/heroExMachina.gif",
+    image: "{`${import.meta.env.BASE_URL}/images/heroExMachina.gif}`",
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
