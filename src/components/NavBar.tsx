@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import "./NavBar.css";
 import { SplitText } from "gsap/SplitText";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(useGSAP);
 
@@ -91,7 +92,7 @@ const NavBar = () => {
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(0)}>
           <p className="nav-p-number">01</p>
           <p className="nav-p" ref={textRefs[0]}>
-            <a href={`/#/`}>Projects</a>
+            <Link to="/">Projects</Link>
           </p>
         </div>
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(1)}>
