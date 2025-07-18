@@ -41,7 +41,9 @@ const ProjectDescription = () => {
           text="The idea initially arises from the intention of placing a medium at the center of the installation—an object capable of existing simultaneously both in the reality of the viewer and in the artificially generated reality of the images. Interaction with it creates a sense of misalignment with reality, catapulting the visitor into the reality of the archive. After generating various ideas around this theme, we decided to pursue the artificial creation of a religious cult. Religious artifacts, since the dawn of time, have carried with them a legacy of superstitions and beliefs—what would happen if an artifact truly had power?"></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-small"
-          imgSrc="/images/exmachina/illustration.png"></ProjectSingleImage>
+          imgSrc={img(
+            "/images/exmachina/illustration.png"
+          )}></ProjectSingleImage>
         <ProjectTextWithTitle
           title={"The idea"}
           text="Ex Machina tells the story of a religious cult set in an undefined time, balancing between a past shaped by ancient rituals and a post-industrial future where artificial artifacts become objects of worship. 
@@ -49,7 +51,7 @@ const ProjectDescription = () => {
           Three objects exist in our reality, somewhere between archaeological relics and symbols of a possible future, serving as a bridge between reality and the cult’s archives."></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/exmachina/sketch.png"></ProjectSingleImage>
+          imgSrc={img("/images/exmachina/sketch.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The objects"
           text={
@@ -70,25 +72,25 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <ImageRow
-          imgSrc1="/images/exmachina/generated1.jpg"
+          imgSrc1={img("/images/exmachina/generated1.jpg")}
           did1="AI generated image"
-          imgSrc2="/images/exmachina/generatedmesh.gif"
+          imgSrc2={img("/images/exmachina/generatedmesh.gif")}
           did2="First 3D mesh"
-          imgSrc3="/images/exmachina/mesh.jpg"
+          imgSrc3={img("/images/exmachina/mesh.jpg")}
           did3="Finished design"></ImageRow>
         <ImageRow
-          imgSrc1="/images/exmachina/generated2.png"
+          imgSrc1={img("/images/exmachina/generated2.png")}
           did1="AI generated image"
-          imgSrc2="/images/exmachina/generatedmesh2.gif"
+          imgSrc2={img("/images/exmachina/generatedmesh2.gif")}
           did2="First 3D mesh"
-          imgSrc3="/images/exmachina/mesh2.jpg"
+          imgSrc3={img("/images/exmachina/mesh2.jpg")}
           did3="Finished design"></ImageRow>
         <ImageRow
-          imgSrc1="/images/exmachina/generated3.png"
+          imgSrc1={img("/images/exmachina/generated3.png")}
           did1="AI generated image"
-          imgSrc2="/images/exmachina/generatedmesh3.gif"
+          imgSrc2={img("/images/exmachina/generatedmesh3.gif")}
           did2="First 3D mesh"
-          imgSrc3="/images/exmachina/mesh3.jpg"
+          imgSrc3={img("/images/exmachina/mesh3.jpg")}
           did3="Finished design"></ImageRow>
         <ProjectTextWithTitle
           title="The photo archive"
@@ -108,11 +110,11 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/exmachina/tok.png"></ProjectSingleImage>
+          imgSrc={img("/images/exmachina/tok.png")}></ProjectSingleImage>
         <ImagesGrid
-          img1="/images/exmachina/agg.gif"
-          img2="/images/exmachina/cont.gif"
-          img3="/images/exmachina/power.gif"
+          img1={img("/images/exmachina/agg.gif")}
+          img2={img("/images/exmachina/cont.gif")}
+          img3={img("/images/exmachina/power.gif")}
           did1="1. Aggregation"
           did2="2. Contemplation"
           did3="3. Power"></ImagesGrid>
@@ -138,20 +140,20 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/exmachina/int.gif"></ProjectSingleImage>
+          imgSrc={img("/images/exmachina/int.gif")}></ProjectSingleImage>
         <ImagesGrid2
-          img1="/images/exmachina/proto1.jpg"
-          img2="/images/exmachina/proto2.jpg"
-          img3="/images/exmachina/proto3.jpg"
+          img1={img("/images/exmachina/proto1.jpg")}
+          img2={img("/images/exmachina/proto2.jpg")}
+          img3={img("/images/exmachina/proto3.jpg")}
           did1="1:5 scaled prototype (galvanized painting)"
           did2="1:5 scaled prototype (chromed painting)"
           did3="Mask Prototype"></ImagesGrid2>
         <ImageRow
-          imgSrc1="/images/exmachina/ex1.png"
+          imgSrc1={img("/images/exmachina/ex1.png")}
           did1=""
-          imgSrc2="/images/exmachina/ex2.png"
+          imgSrc2={img("/images/exmachina/ex2.png")}
           did2=""
-          imgSrc3="/images/exmachina/ex3.png"
+          imgSrc3={img("/images/exmachina/ex3.png")}
           did3=""></ImageRow>
         <ProjectTextWithTitle
           title="Prototyping: the tech"
@@ -176,7 +178,7 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <ProjectSingleImage
-          imgSrc={"/images/exmachina/data.png"}
+          imgSrc={img("/images/exmachina/data.png")}
           width={"project-single-image-large"}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="Prototyping: the physical int."
@@ -196,9 +198,9 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <ImagesGrid2
-          img1={"/images/exmachina/physInt.png"}
-          img2={"/images/exmachina/elect2.jpg"}
-          img3={"/images/exmachina/elect.jpeg"}
+          img1={img("/images/exmachina/physInt.png")}
+          img2={img("/images/exmachina/elect2.jpg")}
+          img3={img("/images/exmachina/elect.jpeg")}
           did1={""}
           did2={
             "The electronic components inside each objetc: the ESP32, the accelerometer and a battery"
@@ -219,9 +221,9 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <VideoImageGrid
-          img1={"/images/exmachina/screen.gif"}
-          vid2={"/images/exmachina/oneToTwo.mp4"}
-          vid3={"/images/exmachina/twoToThree.mp4"}
+          img1={img("/images/exmachina/screen.gif")}
+          vid2={img("/images/exmachina/oneToTwo.mp4")}
+          vid3={img("/images/exmachina/twoToThree.mp4")}
           did1={"Single visualization"}
           did2={"From single to double viz"}
           did3={"From double to thirds viz"}></VideoImageGrid>
@@ -237,9 +239,9 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <SoundTrack
-          src1="/images/exmachina/Contemplation.mp3"
-          src2="/images/exmachina/Aggregation.mp3"
-          src3="/images/exmachina/Power.mp3"
+          src1={img("/images/exmachina/Contemplation.mp3")}
+          src2={img("/images/exmachina/Aggregation.mp3")}
+          src3={img("/images/exmachina/Power.mp3")}
           did1="Contemplation soundtrack"
           did2="Aggregation soundtrack"
           did3="Power soundtrack"></SoundTrack>
@@ -263,18 +265,18 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <ImageGallery
           doubleImgSrc={[
-            "/images/exmachina/saceba.jpg",
-            "/images/exmachina/room.jpg",
+            img("/images/exmachina/saceba.jpg"),
+            img("/images/exmachina/room.jpg"),
           ]}
           didTextDouble={[
             "Cementificio Saceba, Morbio Inferiore, Switzerland",
             "The enclosed room",
           ]}
           galleryImgSrc={[
-            "/images/exmachina/gallery1.gif",
-            "/images/exmachina/gallery2.gif",
-            "/images/exmachina/gallery3.gif",
-            "/images/exmachina/gallery4.gif",
+            img("/images/exmachina/gallery1.gif"),
+            img("/images/exmachina/gallery2.gif"),
+            img("/images/exmachina/gallery3.gif"),
+            img("/images/exmachina/gallery4.gif"),
           ]}></ImageGallery>
         <ProjectFooter link="https://edu.unstated.co/project/the-god-machine"></ProjectFooter>
       </div>
