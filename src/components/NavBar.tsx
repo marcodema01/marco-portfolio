@@ -98,19 +98,19 @@ const NavBar = () => {
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(1)}>
           <p className="nav-p-number">02</p>
           <p className="nav-p" ref={textRefs[1]}>
-            <a href={`/#/playground`}>Playground</a>
+            <Link to="/playground">Playground</Link>
           </p>
         </div>
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(2)}>
           <p className="nav-p-number">03</p>
           <p className="nav-p" ref={textRefs[2]}>
-            <a href={`/#/about`}>About</a>
+            <Link to="/about">About</Link>
           </p>
         </div>
         <div className="nav-text" onMouseEnter={() => onMouseTextAnim(3)}>
           <p className="nav-p-number">04</p>
           <p className="nav-p" ref={textRefs[3]}>
-            <a href={`/#/contacts`}>Contacts</a>
+            <Link to="/contas">Contacts</Link>
           </p>
         </div>
       </div>
