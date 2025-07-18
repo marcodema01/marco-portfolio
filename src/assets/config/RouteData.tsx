@@ -55,7 +55,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         become icons of worship.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/heroExMachina.gif}`,
+    image: () => `${import.meta.env.BASE_URL}images/heroExMachina.gif`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -74,7 +74,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         promote hidden destinations.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/heroHorizon.png}`,
+    image: () => `${import.meta.env.BASE_URL}images/heroHorizon.png`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -94,7 +94,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         pediatric asthma.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/nebuloHero.gif}`,
+    image: () => `${import.meta.env.BASE_URL}images/nebuloHero.gif`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -113,7 +113,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         a thinking object capable of interacting with dinner guests.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/heroRino.jpg}`,
+    image: () => `${import.meta.env.BASE_URL}images/heroRino.jpg`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -132,7 +132,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         for desperate designers in search of remedies to save them.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/heroddose.gif}`,
+    image: () => `${import.meta.env.BASE_URL}images/heroddose.gif`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -152,7 +152,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         exercitationem.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/heroHorizon.png}`,
+    image: () => `${import.meta.env.BASE_URL}images/heroHorizon.png`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
