@@ -4,7 +4,7 @@ import React from "react";
 export interface RouteInfo {
   title: string | React.ReactNode;
   description: string | React.ReactNode;
-  image: string | undefined;
+  image: () => string | undefined;
   invertText: string;
   whiteText: string;
   descriptionTextClass: string;
@@ -35,7 +35,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         want to see more don't forget to check out the playground section!
       </>
     ),
-    image: "{`${import.meta.env.BASE_URL}/images/heroWhite.png`}",
+    image: () => `${import.meta.env.BASE_URL}/images/heroWhite.png`,
     invertText: "",
     whiteText: "",
     descriptionTextClass: "description",
@@ -55,7 +55,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         become icons of worship.
       </>
     ),
-    image: "{`${import.meta.env.BASE_URL}/images/heroExMachina.gif}`",
+    image: () => `${import.meta.env.BASE_URL}/images/heroExMachina.gif}`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -74,7 +74,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         promote hidden destinations.
       </>
     ),
-    image: "/images/heroHorizon.png",
+    image: () => `${import.meta.env.BASE_URL}/images/heroHorizon.png}`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -94,7 +94,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         pediatric asthma.
       </>
     ),
-    image: "/images/nebuloHero.gif",
+    image: () => `${import.meta.env.BASE_URL}/images/nebuloHero.gif}`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -113,7 +113,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         a thinking object capable of interacting with dinner guests.
       </>
     ),
-    image: "/images/heroRino.jpg",
+    image: () => `${import.meta.env.BASE_URL}/images/heroRino.jpg}`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -132,7 +132,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         for desperate designers in search of remedies to save them.
       </>
     ),
-    image: "/images/heroddose.gif",
+    image: () => `${import.meta.env.BASE_URL}/images/heroddose.gif}`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
@@ -152,7 +152,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         exercitationem.
       </>
     ),
-    image: "/images/playground/fab.png",
+    image: () => `${import.meta.env.BASE_URL}/images/heroHorizon.png}`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",

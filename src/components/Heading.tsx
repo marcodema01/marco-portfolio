@@ -20,7 +20,7 @@ const Heading = ({ title, description }: HeadingProps) => {
   return (
     <div className="heading-container">
       <div className="herobg">
-        <img className="cover-image-hero" src={current.image} alt="" />
+        <img className="cover-image-hero" src={current.image()} alt="" />
       </div>
       <div className="top-heading ">
         <p className={current.whiteText}>
