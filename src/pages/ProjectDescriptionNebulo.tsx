@@ -10,6 +10,8 @@ import ImageRow from "../components/ImageRow";
 import SoundTrack from "../components/SoundTrack";
 
 const ProjectDescriptionNebulo = () => {
+  const img = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <>
       <div className="prj-container">
@@ -33,27 +35,27 @@ const ProjectDescriptionNebulo = () => {
           }></VideoComponent>
         <ImageGallery
           doubleImgSrc={[
-            "/images/nebulo/ngallery1.jpg",
-            "/images/nebulo/ngallery2.jpg",
+            img("/images/nebulo/ngallery1.jpg"),
+            img("/images/nebulo/ngallery2.jpg"),
           ]}
           didTextDouble={[
             "White functional prototype",
             "Red non-functional prototype",
           ]}
           galleryImgSrc={[
-            "/images/nebulo/ngallery3.gif",
-            "/images/nebulo/ngallery4.jpg",
-            "/images/nebulo/ngallery5.jpg",
-            "/images/nebulo/ngallery6.gif",
+            img("/images/nebulo/ngallery3.gif"),
+            img("/images/nebulo/ngallery4.jpg"),
+            img("/images/nebulo/ngallery5.jpg"),
+            img("/images/nebulo/ngallery6.gif"),
           ]}></ImageGallery>
         <ImagesGrid2
-          img1={"/images/nebulo/id1.jpg"}
-          img2={"/images/nebulo/id2.gif"}
+          img1={img("/images/nebulo/id1.jpg")}
+          img2={img("/images/nebulo/id2.gif")}
           did1={""}
           did2={""}
           did3={""}></ImagesGrid2>
         <ProjectSingleImage
-          imgSrc={"/images/nebulo/web.png"}
+          imgSrc={img("/images/nebulo/web.png")}
           width={"project-single-image-large"}></ProjectSingleImage>
         <ProjectTextWithTitle
           title={"The idea"}
@@ -71,7 +73,7 @@ const ProjectDescriptionNebulo = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-small"
-          imgSrc="/images/nebulo/idea.png"></ProjectSingleImage>
+          imgSrc={img("/images/nebulo/idea.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title={"The solution"}
           text={
@@ -100,15 +102,15 @@ const ProjectDescriptionNebulo = () => {
           }></ProjectTextWithTitle>
         <ImageGallery
           doubleImgSrc={[
-            "/images/nebulo/double1.png",
-            "/images/nebulo/double2.png",
+            img("/images/nebulo/double1.png"),
+            img("/images/nebulo/double2.png"),
           ]}
           doubleImgClass="cover-image-width-only"
           galleryImgSrc={[
-            "/images/nebulo/sketch1.png",
-            "/images/nebulo/sketch2.png",
-            "/images/nebulo/sketch3.png",
-            "/images/nebulo/sketch4.png",
+            img("/images/nebulo/sketch1.png"),
+            img("/images/nebulo/sketch2.png"),
+            img("/images/nebulo/sketch3.png"),
+            img("/images/nebulo/sketch4.png"),
           ]}></ImageGallery>
         <ProjectTextWithTitle
           title="The prototype"
@@ -142,17 +144,17 @@ const ProjectDescriptionNebulo = () => {
             </>
           }></ProjectTextWithTitle>
         <ImagesGrid
-          img1={"/images/nebulo/proto3.jpg"}
-          img2={"/images/nebulo/proto2.png"}
-          img3={"/images/nebulo/proto1.jpg"}
+          img1={img("/images/nebulo/proto3.jpg")}
+          img2={img("/images/nebulo/proto2.png")}
+          img3={img("/images/nebulo/proto1.jpg")}
           did1={"Exploded view of the coomponents "}
           did2={"Section view"}
           did3={"Detail of the prototype, the Arduino is visible"}></ImagesGrid>
         <ProjectSingleImage
-          imgSrc={"/images/nebulo/proto4.gif"}
+          imgSrc={img("/images/nebulo/proto4.gif")}
           width={"project-single-image-large"}></ProjectSingleImage>
         <ProjectSingleImage
-          imgSrc={"/images/nebulo/proto5.gif"}
+          imgSrc={img("/images/nebulo/proto5.gif")}
           width={"project-single-image-large"}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="Nebulo's identity"
@@ -171,9 +173,9 @@ const ProjectDescriptionNebulo = () => {
           }></ProjectTextWithTitle>
 
         <ImageRow
-          imgSrc1={"/images/nebulo/row1.gif"}
-          imgSrc2={"/images/nebulo/row2.gif"}
-          imgSrc3={"/images/nebulo/row3.gif"}
+          imgSrc1={img("/images/nebulo/row1.gif")}
+          imgSrc2={img("/images/nebulo/row2.gif")}
+          imgSrc3={img("/images/nebulo/row3.gif")}
           did1={"Turning on"}
           did2={"Listening - blinking"}
           did3={"Storytelling - GIF dispay"}></ImageRow>
@@ -192,7 +194,7 @@ const ProjectDescriptionNebulo = () => {
             </>
           }></ProjectTextWithTitle>
         <SoundTrack
-          src1="/images/nebulo/voice.mp3"
+          src1={img("/images/nebulo/voice.mp3")}
           did1="A sample of Nebulo's voice"></SoundTrack>
         <ProjectTextWithTitle
           title="Nebulo's identity: visuals"
@@ -215,11 +217,11 @@ const ProjectDescriptionNebulo = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/nebulo/visuals.gif"
+          imgSrc={img("/images/nebulo/visuals.gif")}
           did="Nebulo's visual feedbacks during the day"></ProjectSingleImage>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/nebulo/story.gif"
+          imgSrc={img("/images/nebulo/story.gif")}
           did="Nebulo's visual feedbacks when talking about the explorations of the day"></ProjectSingleImage>
         <ProjectFooter link="https://master-interaction-design.notion.site/Nebulo-21a89104ecf9802789bfddef81f5e693#21a89104ecf98158b4a7f6583b925664"></ProjectFooter>
       </div>

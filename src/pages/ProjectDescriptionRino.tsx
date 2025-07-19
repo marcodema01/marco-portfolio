@@ -25,9 +25,9 @@ const ProjectDescriptionRino = () => {
           }></ProjectTextWithTitle>
         <VideoComponent videoSrc="https://frabjous-malasada-dd5ef3.netlify.app/rino.mp4"></VideoComponent>
         <ImagesGrid
-          img1={img("/images/rino/poster.png")}
-          img2={img("/images/rino/rgrid2.jpg")}
-          img3={img("/images/rino/rGrid.jpg")}
+          img1={img("/images/rino/poster.webp")}
+          img2={img("/images/rino/rgrid2.webp")}
+          img3={img("/images/rino/rGrid.webp")}
           did1=""
           did2=""
           did3=""></ImagesGrid>
