@@ -152,7 +152,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
         exercitationem.
       </>
     ),
-    image: () => `${import.meta.env.BASE_URL}images/heroHorizon.webp`,
+    image: () => `${import.meta.env.BASE_URL}images/heroWhite.png`,
     invertText: "invert-text",
     whiteText: "white-text",
     descriptionTextClass: "bolder-description",
