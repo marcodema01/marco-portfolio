@@ -7,6 +7,8 @@ import VideoComponent from "../components/VideoComponent";
 import ProjectFooter from "../components/ProjectFooter";
 
 const ProjectDescriptionRino = () => {
+  const img = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <>
       <div className="prj-container">
@@ -23,9 +25,9 @@ const ProjectDescriptionRino = () => {
           }></ProjectTextWithTitle>
         <VideoComponent videoSrc="https://frabjous-malasada-dd5ef3.netlify.app/rino.mp4"></VideoComponent>
         <ImagesGrid
-          img1="/images/rino/poster.png"
-          img2="/images/rino/rgrid2.jpg"
-          img3="/images/rino/rGrid.jpg"
+          img1={img("/images/rino/poster.png")}
+          img2={img("/images/rino/rgrid2.jpg")}
+          img3={img("/images/rino/rGrid.jpg")}
           did1=""
           did2=""
           did3=""></ImagesGrid>
@@ -49,7 +51,7 @@ const ProjectDescriptionRino = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/rino/sketch.png"></ProjectSingleImage>
+          imgSrc={img("/images/rino/sketch.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The prototype: making it fall"
           text={
@@ -68,7 +70,7 @@ const ProjectDescriptionRino = () => {
 
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/rino/interno.gif"
+          imgSrc={img("/images/rino/interno.gif")}
           did="A render of how the inside of Rino looks like"></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The prototype: coding"
@@ -85,18 +87,21 @@ const ProjectDescriptionRino = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/rino/code1.png"
+          imgSrc={img("/images/rino/code1.png")}
           did="During the Arduino setup we initialize the serial, attach the servo and the LEDs"></ProjectSingleImage>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/rino/code2.png"
+          imgSrc={img("/images/rino/code2.png")}
           did="During the loop we look for data coming through the serial port and move the servo motor accordingly"></ProjectSingleImage>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/rino/code3.png"
+          imgSrc={img("/images/rino/code3.png")}
           did="ChatGPT was prompted to respond with a JSON object stating right or left accordingly"></ProjectSingleImage>
         <ImageGallery
-          doubleImgSrc={["/images/rino/v1.gif", "/images/rino/v2.gif"]}
+          doubleImgSrc={[
+            img("/images/rino/v1.gif"),
+            img("/images/rino/v2.gif"),
+          ]}
           galleryImgSrc={[]}></ImageGallery>
         <ProjectFooter></ProjectFooter>
       </div>
