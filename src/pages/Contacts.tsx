@@ -30,7 +30,7 @@ const Contacts = () => {
           My LinkedIn:{" "}
           <a
             target="_blank"
-            href="www.linkedin.com/in/marco-de-martino-935229224">
+            href="https://www.linkedin.com/in/marco-de-martino-935229224">
             Marco De Martino
           </a>{" "}
         </p>
