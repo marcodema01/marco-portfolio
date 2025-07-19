@@ -153,10 +153,10 @@ export const routeData: Record<RouteKey, RouteInfo> = {
       </>
     ),
     image: () => `${import.meta.env.BASE_URL}images/heroWhite.png`,
-    invertText: "invert-text",
-    whiteText: "white-text",
-    descriptionTextClass: "bolder-description",
-    appContainerClass: "auto-app-container",
+    invertText: "",
+    whiteText: "",
+    descriptionTextClass: "description",
+    appContainerClass: "app-container",
   },
 };
 
