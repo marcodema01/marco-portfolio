@@ -30,9 +30,9 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <VideoComponent videoSrc="https://frabjous-malasada-dd5ef3.netlify.app/video.mp4"></VideoComponent>
         <ImagesGrid
-          img1={img("/images/exmachina/grid1.jpg")}
-          img2={img("/images/exmachina/grid2.jpg")}
-          img3={img("/images/exmachina/grid3.jpg")}
+          img1={img("/images/exmachina/grid1.webp")}
+          img2={img("/images/exmachina/grid2.webp")}
+          img3={img("/images/exmachina/grid3.webp")}
           did1=""
           did2=""
           did3=""></ImagesGrid>
@@ -42,7 +42,7 @@ const ProjectDescription = () => {
         <ProjectSingleImage
           width="project-single-image-small"
           imgSrc={img(
-            "/images/exmachina/illustration.png"
+            "/images/exmachina/illustration.webp"
           )}></ProjectSingleImage>
         <ProjectTextWithTitle
           title={"The idea"}
@@ -51,7 +51,7 @@ const ProjectDescription = () => {
           Three objects exist in our reality, somewhere between archaeological relics and symbols of a possible future, serving as a bridge between reality and the cult’s archives."></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc={img("/images/exmachina/sketch.png")}></ProjectSingleImage>
+          imgSrc={img("/images/exmachina/sketch.webp")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The objects"
           text={
@@ -72,25 +72,25 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <ImageRow
-          imgSrc1={img("/images/exmachina/generated1.jpg")}
+          imgSrc1={img("/images/exmachina/generated1.webp")}
           did1="AI generated image"
           imgSrc2={img("/images/exmachina/generatedmesh.gif")}
           did2="First 3D mesh"
-          imgSrc3={img("/images/exmachina/mesh.jpg")}
+          imgSrc3={img("/images/exmachina/mesh.webp")}
           did3="Finished design"></ImageRow>
         <ImageRow
-          imgSrc1={img("/images/exmachina/generated2.png")}
+          imgSrc1={img("/images/exmachina/generated2.webp")}
           did1="AI generated image"
           imgSrc2={img("/images/exmachina/generatedmesh2.gif")}
           did2="First 3D mesh"
-          imgSrc3={img("/images/exmachina/mesh2.jpg")}
+          imgSrc3={img("/images/exmachina/mesh2.webp")}
           did3="Finished design"></ImageRow>
         <ImageRow
-          imgSrc1={img("/images/exmachina/generated3.png")}
+          imgSrc1={img("/images/exmachina/generated3.webp")}
           did1="AI generated image"
           imgSrc2={img("/images/exmachina/generatedmesh3.gif")}
           did2="First 3D mesh"
-          imgSrc3={img("/images/exmachina/mesh3.jpg")}
+          imgSrc3={img("/images/exmachina/mesh3.webp")}
           did3="Finished design"></ImageRow>
         <ProjectTextWithTitle
           title="The photo archive"
@@ -110,7 +110,7 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc={img("/images/exmachina/tok.png")}></ProjectSingleImage>
+          imgSrc={img("/images/exmachina/tok.webp")}></ProjectSingleImage>
         <ImagesGrid
           img1={img("/images/exmachina/agg.gif")}
           img2={img("/images/exmachina/cont.gif")}
@@ -142,18 +142,18 @@ const ProjectDescription = () => {
           width="project-single-image-large"
           imgSrc={img("/images/exmachina/int.gif")}></ProjectSingleImage>
         <ImagesGrid2
-          img1={img("/images/exmachina/proto1.jpg")}
-          img2={img("/images/exmachina/proto2.jpg")}
-          img3={img("/images/exmachina/proto3.jpg")}
+          img1={img("/images/exmachina/proto1.webp")}
+          img2={img("/images/exmachina/proto2.webp")}
+          img3={img("/images/exmachina/proto3.webp")}
           did1="1:5 scaled prototype (galvanized painting)"
           did2="1:5 scaled prototype (chromed painting)"
           did3="Mask Prototype"></ImagesGrid2>
         <ImageRow
-          imgSrc1={img("/images/exmachina/ex1.png")}
+          imgSrc1={img("/images/exmachina/ex1.webp")}
           did1=""
-          imgSrc2={img("/images/exmachina/ex2.png")}
+          imgSrc2={img("/images/exmachina/ex2.webp")}
           did2=""
-          imgSrc3={img("/images/exmachina/ex3.png")}
+          imgSrc3={img("/images/exmachina/ex3.webp")}
           did3=""></ImageRow>
         <ProjectTextWithTitle
           title="Prototyping: the tech"
@@ -178,7 +178,7 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <ProjectSingleImage
-          imgSrc={img("/images/exmachina/data.png")}
+          imgSrc={img("/images/exmachina/data.webp")}
           width={"project-single-image-large"}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="Prototyping: the physical int."
@@ -198,8 +198,8 @@ const ProjectDescription = () => {
             </>
           }></ProjectTextWithTitle>
         <ImagesGrid2
-          img1={img("/images/exmachina/physInt.png")}
-          img2={img("/images/exmachina/elect2.jpg")}
+          img1={img("/images/exmachina/physInt.webp")}
+          img2={img("/images/exmachina/elect2.webp")}
           img3={img("/images/exmachina/elect.jpeg")}
           did1={""}
           did2={
@@ -265,8 +265,8 @@ const ProjectDescription = () => {
           }></ProjectTextWithTitle>
         <ImageGallery
           doubleImgSrc={[
-            img("/images/exmachina/saceba.jpg"),
-            img("/images/exmachina/room.jpg"),
+            img("/images/exmachina/saceba.webp"),
+            img("/images/exmachina/room.webp"),
           ]}
           didTextDouble={[
             "Cementificio Saceba, Morbio Inferiore, Switzerland",
