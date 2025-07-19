@@ -7,6 +7,8 @@ import ImageGallery from "../components/ImageGallery";
 import ProjectFooter from "../components/ProjectFooter";
 
 const ProjectDescriptionHorizon = () => {
+  const img = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <>
       <div className="prj-container">
@@ -22,9 +24,9 @@ const ProjectDescriptionHorizon = () => {
         <ImageGallery
           doubleImgSrc={[]}
           galleryImgSrc={[
-            "/images/horizon/proto1.gif",
-            "/images/horizon/proto3.gif",
-            "/images/horizon/proto2.gif",
+            img("/images/horizon/proto1.gif"),
+            img("/images/horizon/proto3.gif"),
+            img("/images/horizon/proto2.gif"),
           ]}
           didTextGallery={[
             "The user sets his goals during the on-boarding phase, this data drives the analyses and interactions of the workspace.",
@@ -51,7 +53,7 @@ const ProjectDescriptionHorizon = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-small"
-          imgSrc="/images/horizon/conceptH.png"></ProjectSingleImage>
+          imgSrc={img("/images/horizon/conceptH.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title={"The idea"}
           text={
@@ -77,7 +79,7 @@ const ProjectDescriptionHorizon = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/horizon/pillars.png"
+          imgSrc={img("/images/horizon/pillars.png")}
           did="Horizon's core pillars"></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The research"
@@ -102,9 +104,9 @@ const ProjectDescriptionHorizon = () => {
             </>
           }></ProjectTextWithTitle>
         <ImagesGrid
-          img1={"/images/horizon/research1.png"}
-          img2={"/images/horizon/research2.png"}
-          img3={"/images/horizon/research3.jpg"}
+          img1={img("/images/horizon/research1.png")}
+          img2={img("/images/horizon/research2.png")}
+          img3={img("/images/horizon/research3.jpg")}
           did1={""}
           did2={""}
           did3={""}></ImagesGrid>
@@ -137,7 +139,7 @@ const ProjectDescriptionHorizon = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/horizon/features.png"></ProjectSingleImage>
+          imgSrc={img("/images/horizon/features.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The agent personality"
           text={
@@ -151,7 +153,7 @@ const ProjectDescriptionHorizon = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/horizon/personality.png"></ProjectSingleImage>
+          imgSrc={img("/images/horizon/personality.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The prototype"
           text={
@@ -167,8 +169,8 @@ const ProjectDescriptionHorizon = () => {
             </>
           }></ProjectTextWithTitle>
         <ImagesGrid2
-          img1={"/images/horizon/gpt.png"}
-          img2={"/images/horizon/proto5.png"}
+          img1={img("/images/horizon/gpt.png")}
+          img2={img("/images/horizon/proto5.png")}
           did1={"The GPT agent."}
           did2={
             "The Figma prototype was developed using components and variants."

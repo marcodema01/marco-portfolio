@@ -6,6 +6,8 @@ import ProjectFooter from "../components/ProjectFooter";
 import ImagesGrid2 from "../components/ImagesGrid2";
 
 const ProjectDescriptionDdose = () => {
+  const img = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <>
       <div className="prj-container">
@@ -21,13 +23,13 @@ const ProjectDescriptionDdose = () => {
             </>
           }></ProjectTextWithTitle>
         <ProjectSingleImage
-          imgSrc={"/images/ddose/intro.gif"}
+          imgSrc={img("/images/ddose/intro.gif")}
           width={"project-single-image-large"}
           did='The website opens with an ironic question: "Are you a desperate designer?"'></ProjectSingleImage>
         <ImagesGrid2
-          img1="/images/ddose/critiscon.gif"
-          img2="/images/ddose/banner.gif"
-          img3="/images/ddose/filters.gif"
+          img1={img("/images/ddose/critiscon.gif")}
+          img2={img("/images/ddose/banner.gif")}
+          img3={img("/images/ddose/filters.gif")}
           did1=""
           did2=""
           did3=""></ImagesGrid2>
@@ -46,8 +48,8 @@ const ProjectDescriptionDdose = () => {
           }></ProjectTextWithTitle>
         <ImageGallery
           doubleImgSrc={[
-            "/images/ddose/lnero.png",
-            "/images/ddose/lchiaro.png",
+            img("/images/ddose/lnero.png"),
+            img("/images/ddose/lchiaro.png"),
           ]}
           didTextDouble={[
             "Brand identity: dark logo",
@@ -59,9 +61,9 @@ const ProjectDescriptionDdose = () => {
             "Secondary colors, products and their categories: liquid, solid and creamy",
           ]}
           galleryImgSrc={[
-            "/images/ddose/1.png",
-            "/images/ddose/fonts.png",
-            "/images/ddose/fin.png",
+            img("/images/ddose/1.png"),
+            img("/images/ddose/fonts.png"),
+            img("/images/ddose/fin.png"),
           ]}></ImageGallery>
         <ProjectTextWithTitle
           title="The products"
@@ -77,7 +79,7 @@ const ProjectDescriptionDdose = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/ddose/blender.png"></ProjectSingleImage>
+          imgSrc={img("/images/ddose/blender.png")}></ProjectSingleImage>
         <ProjectTextWithTitle
           title="The information architecture"
           text={
@@ -94,11 +96,11 @@ const ProjectDescriptionDdose = () => {
           }></ProjectTextWithTitle>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/ddose/architettura.png"
+          imgSrc={img("/images/ddose/architettura.png")}
           did="The scheme of the whole website"></ProjectSingleImage>
         <ProjectSingleImage
           width="project-single-image-large"
-          imgSrc="/images/ddose/contenuti.png"
+          imgSrc={img("/images/ddose/contenuti.png")}
           did="The architecture of the landing pages of every product."></ProjectSingleImage>
         <ProjectFooter link="https://designdose-srl.webflow.io/"></ProjectFooter>
       </div>
