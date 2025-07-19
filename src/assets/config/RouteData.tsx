@@ -146,10 +146,10 @@ export const routeData: Record<RouteKey, RouteInfo> = {
     ),
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-        temporibus provident fugiat culpa ab soluta similique amet nam, sapiente
-        doloremque quod veniam sed asperiores tenetur dolores dolorum at iste
-        exercitationem.
+        Here is a selection of passion projects that didn't yet make it to the
+        front page. <br /> The projects span from 3D models to creative
+        applications of tech, <br /> from websites to industrial designs, from
+        videogames to digital fabrication prototypes.
       </>
     ),
     image: () => `${import.meta.env.BASE_URL}images/heroWhite.png`,
