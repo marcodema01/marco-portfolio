@@ -156,7 +156,7 @@ export const routeData: Record<RouteKey, RouteInfo> = {
     invertText: "",
     whiteText: "",
     descriptionTextClass: "description",
-    appContainerClass: "app-container",
+    appContainerClass: "auto-app-container",
   },
 };
 
