@@ -7,12 +7,19 @@
 
 .about-info{
     width: 30vw;
-    margin: 120px 32px 12px 32px ;
+    margin: 120px 32px 12px 32px;
 }
 .about-info-text-only{
     width: 30vw;
+    font-family: "neuehaas-regular";
 }
 
 .bigger {
     font-size: larger;
+}
+
+@media screen and (max-width: 850px) {
+    .about-info {
+        width: 40vw;
+    }
 }

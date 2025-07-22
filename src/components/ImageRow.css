@@ -20,3 +20,17 @@
     font-size: .7vw;
     width: auto;
 }
+
+@media screen and (max-width: 500px) {
+    .image-row-container {
+        width: 90vw;
+    }
+
+    .row-image {
+        width: 23vw
+    }
+
+    .did {
+        font-size: 2vw;
+    }
+}

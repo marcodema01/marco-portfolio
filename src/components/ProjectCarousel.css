@@ -11,3 +11,9 @@
 .carousel::-webkit-scrollbar{
     display: none;
 }
+
+@media screen and (max-width: 850px){
+    .carousel{
+        gap: 100px;
+    }
+}

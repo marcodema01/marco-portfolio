@@ -43,3 +43,54 @@ h4{
     min-width: 180px;
     max-width: 180px;
 }
+
+@media screen and (max-width: 1100px){
+    .italic,
+    h3 {
+        font-size: 2.8vw;
+    }
+
+    h4{
+        font-size: 1.3vw;
+    }
+
+    .card-image-element {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .italic,
+    h3 {
+        font-size: 3.4vw;
+    }
+
+    h4 {
+        font-size: 1.5vw
+    }
+
+    .card-image-element {
+        max-width: 220px;
+    }
+}
+
+@media screen and (width: 768px) and (height: 1024px) {
+    .card-text {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .italic,
+    h3 {
+        font-size: 7vw;
+    }
+
+    h4{
+        font-size: 3vw;
+    }
+
+    .card-text {
+        width: 170px;
+    }
+}

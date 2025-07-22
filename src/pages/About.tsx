@@ -32,9 +32,9 @@ const About = () => {
             University of Applied Sciences of Southern Switzerland.
           </a>{" "}
           <br /> <br />{" "}
-          <p className="bigger about-info-text-only">
+          <span className="bigger about-info-text-only">
             Reach out to me: demartino.work@gmail.com
-          </p>
+          </span>
         </p>
       </div>
     </div>

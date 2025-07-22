@@ -39,3 +39,27 @@
     width: 50vw;
     margin: 32px;
 }
+
+@media screen and (max-width: 1100px){
+    .prj-overview {
+        width: 80vw;
+    }
+
+    .prj-p {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .prj-overview {
+        width: 90vw;
+    }
+
+    .project-single-image-large {
+        width: 90vw;
+    }
+
+    .project-single-image-small {
+        width: 50vw;
+    }
+}

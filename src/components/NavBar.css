@@ -44,3 +44,9 @@
     padding-top: 0px;
     line-height: 1;
 }
+
+@media screen and (max-width: 500px) {
+    .nav-p-number {
+        font-size: 1.7vw;
+    }
+}
